@@ -70,6 +70,7 @@ body{
 }
 /* general container h1 class closed */
 
+/* screen */
 .screen{
   background-color: grey;
   width: 100%;
@@ -87,6 +88,8 @@ body{
   font-weight: 650;
   letter-spacing: 1.6px;
 }
+/* closed */
+/* calc button */
 .calc-btn{
   background-color: var(--box-shadow-color);
   height: auto;
@@ -113,6 +116,8 @@ body{
  background-color: var(--red-color);
  color: var(--white-color);
 }
+/* closed */
+/* @media screen */
 @media  screen and (max-width: 992px) {
   body{
     width: 100%;
@@ -139,3 +144,4 @@ body{
     height: auto;
   }
 }
+/* closed */

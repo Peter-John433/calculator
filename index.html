@@ -8,54 +8,62 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+  <!-- heading -->
   <div class="heading">
     <h1>responsive <span>calculator</span> project with HTML and CSS</h1>
   </div>
+  <!-- closed -->
+  <!-- general-container -->
   <div class="general-container">
     <h1>calculator</h1>
     <div class="screen">
-      <div class="screen-box">
-        <p>123456789</p>
+      <div class="">
+         <input type="text" name="" id="screen-box">
       </div>
     </div>
 
+    <!-- calc button -->
     <div class="calc-btn">
 
       <div class="calc-btn-box">
-      <button>AC</button>
-      <button>()</button>
-      <button>%</button>
-      <button class="asign-opp">/</button>
+      <button type="button" class="key-others operations">AC</button>
+      <button type="button" class="key-others operations">()</button>
+      <button type="button" class="key-others operations">%</button>
+      <button type="button" class="key-operate operations asign-opp">/</button>
       </div>
 
       <div class="calc-btn-box">
-      <button>7</button>
-      <button>8</button>
-      <button>9</button>
-      <button class="asign-opp">*</button>
+      <button type="button" class="numbers">7</button>
+      <button type="button" class="numbers">8</button>
+      <button type="button" class="numbers">9</button>
+      <button type="button" class="key-operate operations asign-opp">*</button>
       </div>
 
       <div class="calc-btn-box">
-      <button>4</button>
-      <button>5</button>
-      <button>6</button>
+      <button type="button" class="numbers">4</button>
+      <button type="button" class="numbers">5</button>
+      <button type="button" class="numbers">6</button>
       <button class="asign-opp">-</button>
       </div>
       
       <div class="calc-btn-box">
-      <button>1</button>
-      <button>2</button>
-      <button>3</button>
-      <button class="asign-opp">+</button>
+      <button type="button" class="numbers">1</button>
+      <button type="button" class="numbers">2</button>
+      <button type="button" class="numbers">3</button>
+      <button type="button" class="key-operate operations asign-opp">+</button>
       </div>
       
       <div class="calc-btn-box">
-      <button>0</button>
-      <button>.</button>
-      <button>Del</button>
-      <button class="asign-opp equal">=</button>
+      <button type="button" class="numbers key-zero">0</button>
+      <button type="button" class="numbers">.</button>
+      <button type="button" class="key-others operations">Del</button>
+      <button type="button" class="key-operate operations asign-opp equal">=</button>
       </div>
     </div>
+    <!-- closed -->
   </div>
+  <!-- closed -->
+
+  <script src="./js/main.js"></script>
 </body>
 </html>
